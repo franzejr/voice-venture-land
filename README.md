@@ -11,6 +11,8 @@ and picking the words was a blast for him! I hope you can do the same with your 
 Engaging children in educational activities like this not only supports their learning 
 but also provides valuable bonding time.
 
+[🎮 Play the game 🎮](https://voice-venture-land.vercel.app/)
+
 
 ![](./screenshot.png)
 
