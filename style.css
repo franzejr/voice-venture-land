@@ -1,0 +1,77 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#gameArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('background.png');
+  background-size: cover;
+}
+
+#wordDisplay {
+  font-size: 6em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: fit-content; /* Fit the content width */
+}
+
+#feedback {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5em;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  display: none;
+}
+
+#wrong {
+  display: none;
+}
+
+#correct {
+  display: none;
+}
+
+#startButton {
+  margin-top: 20px;
+}
+
+.mario-style-button {
+  background: #ff0000; /* Red background */
+  background: linear-gradient(180deg, #ff0000 0%, #cc0000 100%);
+  border: none;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px #660000; /* Simulate 3D effect */
+  color: #ffffff; /* White text */
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive; /* Retro, pixelated font */
+  font-size: 2rem; /* Font size */
+  padding: 10px 20px; /* Padding */
+  text-transform: uppercase; /* Uppercase text */
+  transition: all 0.2s ease; /* Transition for smooth click effect */
+}
+
+.mario-style-button:hover {
+  background: linear-gradient(180deg, #cc0000 0%, #ff0000 100%);
+}
+
+.mario-style-button:active {
+  box-shadow: 0 2px #660000; /* Adjust shadow to look like button is pressed */
+  transform: translateY(2px); /* Push down the button */
+}
+
+/* Optional: If you want to add a pixelated effect around the text */
+.mario-style-button-text {
+  color: transparent;
+  text-shadow: 0 0 2px #fff, /* Horizontal shadow, Vertical shadow, Blur radius, Color */
+               1px 1px 0 #fff, -1px -1px 0 #fff, 
+               1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+
