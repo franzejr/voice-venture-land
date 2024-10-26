@@ -10,8 +10,6 @@ function updateTexts() {
   document.getElementById("startButton").textContent = messages[userLang].startButtonText;
   document.getElementById("wrong").querySelector('img').alt = messages[userLang].wrongImageAlt;
   document.getElementById("correct").querySelector('img').alt = messages[userLang].correctImageAlt;
-
-  // Update other static texts similarly
 }
 
 updateTexts();
